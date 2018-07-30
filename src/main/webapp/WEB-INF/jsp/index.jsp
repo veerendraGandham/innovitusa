@@ -58,7 +58,7 @@
 										<ul class="dropdown">
 											<li><a href="development">IT Development</a></li>
 											<li><a href="consulting">IT Consulting</a></li>
-											<li><a href="skill">Skill Development</a></li>
+											<li><a href="#">Skill Development</a></li>
 											<li><a href="digital">Digital Marketing</a></li>
 										</ul></li>
 
