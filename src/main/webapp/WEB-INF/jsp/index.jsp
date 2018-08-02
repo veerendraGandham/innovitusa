@@ -29,9 +29,66 @@
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/responsive.css">
+<style>
+.topnav {
+	overflow: hidden;
+	background-color: #E5E7E9;
+}
+
+.topnav a {
+	color: #333;
+	text-align: center;
+	padding: 3px 4px;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.headspace {
+	margin-left: 55px;
+}
+
+.topnav a:hover {
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.hcontact, .vdivider {
+	display: inline-block;
+}
+
+.hcontact1 {
+	display: inline-block;
+	float: right;
+}
+
+.hcontact2 {
+	display: inline-block;
+	margin-right: 75px;
+}
+</style>
 </head>
 <body>
 
+	<div class="topnav">
+		<div class="headspace">
+			<div class="hcontact">
+				<a><i class="fa fa-phone"></i> : <img src="img/us.png" alt="USA" />
+					215-613-0054</a>
+			</div>
+			<div class="vdivider">&nbsp; - &nbsp;</div>
+			<div class="hcontact">
+				<a><i class="fa fa-envelope"></i> : info@innovitusa.com</a>
+			</div>
+			<div class="hcontact1">
+				<a> Login</a>
+				<div class="hcontact2"></div>
+			</div>
+		</div>
+	</div>
 
 
 	<!-- Header Area -->
@@ -41,7 +98,7 @@
 				<div class="row">
 					<div class="col-md-3 col-sm-2 col-xs-12">
 						<div class="logo">
-							<a href="index.html"><img src="img/logo.png" alt="logo.png"></a>
+							<a href="home"><img src="img/logo.png" alt="logo.png"></a>
 						</div>
 					</div>
 					<div class="col-md-9 col-sm-10 col-xs-12">
@@ -81,9 +138,9 @@
 									<li><a href="javascript:void(0)">Employee</a>
 										<ul class="dropdown">
 											<li><a href="forms">Forms</a></li>
-											<li><a href="#">Benefits</a></li>
+											<li><a href="benefits">Benefits</a></li>
 										</ul></li>
-									<li><a href="#">Contact</a></li>
+									<li><a href="contact">Contact Us</a></li>
 								</ul>
 							</div>
 						</nav>
@@ -140,9 +197,7 @@
 							<div class="social">
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-									<li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -167,7 +222,7 @@
 				<div class="col-md-4 col-sm-12 col-xs-12">
 					<div class="section-title">
 						<h2>
-							My <span>Service</span>
+							Our <span>Services</span>
 						</h2>
 					</div>
 				</div>
@@ -178,7 +233,7 @@
 							<!-- single-service -->
 							<div class="single-service">
 								<i class="fa fa-laptop"></i>
-								<h5>Web Development</h5>
+								<h5>IT Development</h5>
 								<p>Lorem ipsum dolor sit ametconcer adipiscing elit. Aenean
 									commodo. In eu justo a felis faucibus ornare vel id metus.</p>
 							</div>
@@ -188,7 +243,7 @@
 							<!-- single-service -->
 							<div class="single-service">
 								<i class="fa fa-mobile"></i>
-								<h5>App Development</h5>
+								<h5>IT Consulting</h5>
 								<p>Lorem ipsum dolor sit ametconcer adipiscing elit. Aenean
 									commodo. In eu justo a felis faucibus ornare vel id metus.</p>
 							</div>
@@ -198,7 +253,7 @@
 							<!-- single-service -->
 							<div class="single-service">
 								<i class="fa fa-paper-plane"></i>
-								<h5>Rebranding</h5>
+								<h5>Skill Development</h5>
 								<p>Lorem ipsum dolor sit ametconcer adipiscing elit. Aenean
 									commodo. In eu justo a felis faucibus ornare vel id metus.</p>
 							</div>
@@ -208,27 +263,7 @@
 							<!-- single-service -->
 							<div class="single-service">
 								<i class="fa fa-pencil"></i>
-								<h5>UI / UX Design</h5>
-								<p>Lorem ipsum dolor sit ametconcer adipiscing elit. Aenean
-									commodo. In eu justo a felis faucibus ornare vel id metus.</p>
-							</div>
-						</div>
-						<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInUp"
-							data-wow-duration="0.8s" data-wow-delay="0.8s">
-							<!-- single-service -->
-							<div class="single-service">
-								<i class="fa fa-camera"></i>
-								<h5>Photography</h5>
-								<p>Lorem ipsum dolor sit ametconcer adipiscing elit. Aenean
-									commodo. In eu justo a felis faucibus ornare vel id metus.</p>
-							</div>
-						</div>
-						<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInUp"
-							data-wow-duration="0.8s" data-wow-delay="0.9s">
-							<!-- single-service -->
-							<div class="single-service">
-								<i class="fa fa-life-ring"></i>
-								<h5>SEO Marketing</h5>
+								<h5>Digital Marketing</h5>
 								<p>Lorem ipsum dolor sit ametconcer adipiscing elit. Aenean
 									commodo. In eu justo a felis faucibus ornare vel id metus.</p>
 							</div>
@@ -247,7 +282,7 @@
 				<div class="col-md-2 col-sm-12 col-xs-12">
 					<div class="section-title">
 						<h2>
-							About<span>US</span>
+							About <span>US</span>
 						</h2>
 					</div>
 				</div>
@@ -256,7 +291,7 @@
 						<div class="row">
 							<div class="col-md-6 col-sm-12 col-xs-12">
 								<div class="skill-content">
-									<h3>INNOVITUSA.Inc</h3>
+									<h3>INNOVIT USA</h3>
 									<p>
 										<b>InnovIT USA Inc. is the fastest growing IT
 											Services,Product & Digital Marketing Company Headquartered in
@@ -271,7 +306,7 @@
 								<div class="skill-main">
 									<div class="single-skill">
 										<div class="skill-title">
-											<h4>WORDPRESS</h4>
+											<h4>IT Development</h4>
 										</div>
 										<div class="progress two">
 											<div class="progress-bar" data-percent="95">
@@ -281,27 +316,27 @@
 									</div>
 									<div class="single-skill">
 										<div class="skill-title">
-											<h4>HTML & CSS3</h4>
+											<h4>IT Consulting</h4>
 										</div>
 										<div class="progress two">
-											<div class="progress-bar" data-percent="70">
-												<span>70%</span>
+											<div class="progress-bar" data-percent="90">
+												<span>90%</span>
 											</div>
 										</div>
 									</div>
 									<div class="single-skill">
 										<div class="skill-title">
-											<h4>PHOTOSHOP</h4>
+											<h4>Skill Development</h4>
 										</div>
 										<div class="progress two">
-											<div class="progress-bar" data-percent="80">
-												<span>80%</span>
+											<div class="progress-bar" data-percent="85">
+												<span>85%</span>
 											</div>
 										</div>
 									</div>
 									<div class="single-skill">
 										<div class="skill-title">
-											<h4>ILUSTRATOR</h4>
+											<h4>Digital Marketing</h4>
 										</div>
 										<div class="progress two">
 											<div class="progress-bar" data-percent="90">

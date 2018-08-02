@@ -58,9 +58,8 @@
 							<li><a href="javascript:void(0)">Employee</a>
 								<ul class="dropdown">
 									<li><a href="forms">Forms</a></li>
-									<li><a href="#">Benefits</a></li>
+									<li><a href="benefits">Benefits</a></li>
 								</ul></li>
-							<li><a href="#">Contact</a></li>
 						</ul>
 					</div>
 					</nav>

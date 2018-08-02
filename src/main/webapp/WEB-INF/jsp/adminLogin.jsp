@@ -119,11 +119,24 @@
 	font-weight: 700;
 	float: left;
 }
+
+.textpages {
+	margin-top: -12px;
+	min-height: 600px;
+}
 </style>
 </head>
 <body>
 	<%@include file="header.jsp"%>
-	<div class="container">
+	<div class="clearfix"></div>
+	<div class="page_title">
+		<div class="container">
+			<div class="pagenation">
+				&nbsp;<a href="home">Home</a> <i>/</i> Admin Login
+			</div>
+		</div>
+	</div>
+	<div class="container textpages">
 		<div class="login-form">
 			<div class="main-div">
 				<div class="panel"></div>
