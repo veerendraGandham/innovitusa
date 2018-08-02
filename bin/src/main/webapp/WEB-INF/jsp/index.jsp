@@ -50,12 +50,15 @@
 							<div class="collapse navbar-collapse">
 								<ul id="nav" class="nav navbar-nav">
 									<li><a href="home">Home</a></li>
-									<li><a href="aboutus">About US</a></li>
+									<li><a href="javascript:void(0)">About US</a>
+										<ul class="dropdown">
+											<li><a href="aboutus">Vision & Mission</a></li>
+										</ul></li>
 									<li><a href="javascript:void(0)">Service</a>
 										<ul class="dropdown">
 											<li><a href="development">IT Development</a></li>
 											<li><a href="consulting">IT Consulting</a></li>
-											<li><a href="skill">Skill Development</a></li>
+											<li><a href="#">Skill Development</a></li>
 											<li><a href="digital">Digital Marketing</a></li>
 										</ul></li>
 
@@ -78,9 +81,9 @@
 									<li><a href="javascript:void(0)">Employee</a>
 										<ul class="dropdown">
 											<li><a href="forms">Forms</a></li>
-											<li><a href="benefits">Benefits</a></li>
+											<li><a href="#">Benefits</a></li>
 										</ul></li>
-									<li><a href="contact">Contact</a></li>
+									<li><a href="#">Contact</a></li>
 								</ul>
 							</div>
 						</nav>
