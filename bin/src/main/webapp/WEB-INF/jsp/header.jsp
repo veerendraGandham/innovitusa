@@ -11,8 +11,6 @@
 <link rel="icon" href="img/logo.png">
 </head>
 <body>
-
-
 	<!-- Header Area -->
 	<header id="header" class="header">
 	<div class="header-inner">
@@ -29,13 +27,17 @@
 					<div class="collapse navbar-collapse">
 						<ul id="nav" class="nav navbar-nav">
 							<li><a href="home">Home</a></li>
-							<li><a href="aboutus">About US</a></li>
+							<li><a href="javascript:void(0)">About US</a>
+								<ul class="dropdown">
+									<li><a href="aboutus">Vision & Mission</a></li>
+								</ul></li>
 							<li><a href="javascript:void(0)">Service</a>
 								<ul class="dropdown">
 									<li><a href="development">IT Development</a></li>
 									<li><a href="consulting">IT Consulting</a></li>
-									<li><a href="skill">Skill Development</a></li>
-									<li><a href="digital">Digital Marketing</a></li>
+									<li><a href="#">Skill Development</a></li>
+									<li><a target="_blank" href="http://www.inficlicks.com/">Digital
+											Marketing</a></li>
 								</ul></li>
 
 
@@ -48,9 +50,9 @@
 									<li><a href="govt">Govt., & Non Profit</a></li>
 									<li><a href="health">Health & Fitness</a></li>
 								</ul></li>
-							<li><a href="javascript:void(0)">career</a>
+							<li><a href="javascript:void(0)">CAREERS</a>
 								<ul class="dropdown">
-									<li><a href="jobs">Jobs</a></li>
+									<li><a href="get_client_jobPost">Jobs</a></li>
 									<li><a href="lca">LCA</a></li>
 								</ul></li>
 							<li><a href="javascript:void(0)">Employee</a>
@@ -58,7 +60,6 @@
 									<li><a href="forms">Forms</a></li>
 									<li><a href="benefits">Benefits</a></li>
 								</ul></li>
-							<li><a href="contact">Contact</a></li>
 						</ul>
 					</div>
 					</nav>

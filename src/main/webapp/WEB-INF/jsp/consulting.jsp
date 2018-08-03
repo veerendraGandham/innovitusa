@@ -99,7 +99,7 @@
 				<div class="about-content">
 
 					<div class="">
-						<h2>Innovit USA Consulting</h2>
+						<h3>Innovit USA Consulting</h3>
 						<hr>
 						<span class="para">In today's business world, technology is
 							power. It increases our ability to communicate, enhances the

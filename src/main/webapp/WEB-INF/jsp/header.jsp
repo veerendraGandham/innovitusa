@@ -18,7 +18,7 @@
 			<div class="row">
 				<div class="col-md-3 col-sm-2 col-xs-12">
 					<div class="logo">
-						<a href="index.html"><img src="img/logo.png" alt="logo.png"></a>
+						<a href="#"><img src="img/logo.png" alt="logo.png"></a>
 					</div>
 				</div>
 				<div class="col-md-9 col-sm-10 col-xs-12">
@@ -58,9 +58,9 @@
 							<li><a href="javascript:void(0)">Employee</a>
 								<ul class="dropdown">
 									<li><a href="forms">Forms</a></li>
-									<li><a href="#">Benefits</a></li>
+									<li><a href="benefits">Benefits</a></li>
 								</ul></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="contact">Contact Us</a></li>
 						</ul>
 					</div>
 					</nav>
