@@ -11,24 +11,6 @@
 addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </script>
 <link href="admin/css/bootstrap.min.css" rel='stylesheet'
 	type='text/css' />
@@ -119,8 +101,8 @@ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); func
 									</div>
 									<div class="form-group">
 										<label for="exampleInputEmail1">Description</label>
-										<textarea name="jobDescription" value="${res.jobDescription}"
-											class="form-control"></textarea>
+										<input type="text" name="jobDescription" value="${res.jobDescription}"
+											class="form-control">
 										<!-- <div id="editor">
 <p>Add Job Description</p>
 </div> -->

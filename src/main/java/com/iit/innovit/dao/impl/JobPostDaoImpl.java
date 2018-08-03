@@ -1,5 +1,7 @@
 package com.iit.innovit.dao.impl;
 
+import java.io.IOException;
+import java.sql.SQLException;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,32 +17,32 @@ public class JobPostDaoImpl implements JobPostDao {
 @Autowired
 private JdbcTemplate jdbcTemplate;
 	@Override
-	public int insertJobPost(JobPostDto jobPostDto) {
-		System.out.println("dao  "+jobPostDto);
+	public int insertJobPost(JobPostDto jobPostDto)throws IOException,SQLException {
+	
 		int responce=jdbcTemplate.update(JobPostDaoConstraints.INSERT_JOBPOST, jobPostDto.getJobTitle(), jobPostDto.getJobType(), jobPostDto.getLocation()
 				, jobPostDto.getEmail(), jobPostDto.getCompanyLogo(), jobPostDto.getCompanyName(), jobPostDto.getCompanyTagLine(), jobPostDto.getWebsite()
 				, jobPostDto.getVideoLink(), jobPostDto.getTwitterUserName(), jobPostDto.getJobDescription(), jobPostDto.getIsActive());
 		return responce;
 	}
 	@Override
-	public List<JobPostDto> getJobPostList() {
+	public List<JobPostDto> getJobPostList() throws IOException,SQLException{
 		List<JobPostDto> responce=jdbcTemplate.query(JobPostDaoConstraints.GET_JOBPOST_LIST, new BeanPropertyRowMapper(JobPostDto.class));
 		return responce;
 	}
 	@Override
-	public List<JobPostDto> getEditJobPost(Integer id) {
+	public List<JobPostDto> getEditJobPost(Integer id)throws IOException,SQLException {
 		List<JobPostDto> responce=jdbcTemplate.query(JobPostDaoConstraints.GET_EDIT_JOBPOST_LIST, new BeanPropertyRowMapper(JobPostDto.class), id);
 		return responce;
 	}
 	@Override
-	public int updateJobPost(JobPostDto jobPostDto) {
+	public int updateJobPost(JobPostDto jobPostDto)throws IOException,SQLException {
 		int responce=jdbcTemplate.update(JobPostDaoConstraints.UPDATE_JOBPOST, jobPostDto.getJobTitle(), jobPostDto.getJobType(), jobPostDto.getLocation()
 				, jobPostDto.getEmail(), jobPostDto.getCompanyLogo(), jobPostDto.getCompanyName(), jobPostDto.getCompanyTagLine(), jobPostDto.getWebsite()
 				, jobPostDto.getVideoLink(), jobPostDto.getTwitterUserName(), jobPostDto.getJobDescription(), jobPostDto.getIsActive(),jobPostDto.getJobId());
 		return responce;
 	}
 	@Override
-	public int deleteUser(Integer id) {
+	public int deleteUser(Integer id) throws IOException,SQLException{
 	int responce=jdbcTemplate.update(JobPostDaoConstraints.DELETE_JOBPOST, id);
 		return responce;
 	}

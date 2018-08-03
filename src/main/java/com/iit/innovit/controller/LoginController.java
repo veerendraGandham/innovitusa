@@ -6,6 +6,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -22,35 +23,52 @@ public class LoginController {
 	private LoginService service;
 
 	@GetMapping("/get_admin_login")
-	public ModelAndView getLoginInfo() {
-		LoginDto responce = service.getLoginInfo();
-		return new ModelAndView("accountInfo","res",responce);
+	public ModelAndView getLoginInfo(Model model,RedirectAttributes redirect) {
+		LoginDto responce=null;
+		try {
+			responce= service.getLoginInfo();
+		String msg=(String) model.asMap().get("msg");
+		model.addAttribute("msg", msg);
+		return new ModelAndView("accountInfo", "res", responce);
+		}
+		catch (Exception e) {
+			return new ModelAndView("accountInfo", "res", responce);
+		}
 	}
+
 	@PostMapping("/update_adminLogin")
-	public ModelAndView updateAdminLogin(@ModelAttribute LoginDto loginDto,RedirectAttributes redirect) {
-		String responce=service.updateAdminLogin(loginDto);
+	public ModelAndView updateAdminLogin(@ModelAttribute LoginDto loginDto, RedirectAttributes redirect) {
+		String responce = null;
+		try {
+			responce = service.updateAdminLogin(loginDto);
+		} catch (Exception e) {
+			redirect.addFlashAttribute("msg", responce);
+			return new ModelAndView("redirect:/get_admin_login");
+		}
+		redirect.addFlashAttribute("msg", responce);
 		return new ModelAndView("redirect:/get_admin_login");
 	}
+
 	@GetMapping("/adminLogin")
 	public ModelAndView viewLogin() {
 		return new ModelAndView("adminLogin");
 	}
+
 	@PostMapping("/auth_adminLogin")
-	public ModelAndView authAdminLogin(@ModelAttribute LoginDto loginDto,RedirectAttributes redirect) throws IOException,SQLException{
-		LoginDto dto=null;
+	public ModelAndView authAdminLogin(@ModelAttribute LoginDto loginDto, RedirectAttributes redirect)
+			throws IOException, SQLException {
+		LoginDto dto = null;
 		try {
-		dto=service.authAdminLogin(loginDto);
-		if(dto.getLoginName().equals(loginDto.getLoginName()) && dto.getPassword().equals(loginDto.getPassword())) {
-			return new ModelAndView("redirect:/jobsList");
+			dto = service.authAdminLogin(loginDto);
+			if (dto.getLoginName().equals(loginDto.getLoginName())
+					&& dto.getPassword().equals(loginDto.getPassword())) {
+				return new ModelAndView("redirect:/jobsList");
+			}
+		} catch (Exception e) {
+			String msg = "Wrong Login Cradentials Try Again Later..";
+			return new ModelAndView("adminLogin", "msg", msg);
 		}
-		}
-		catch (Exception e) {
-			return new ModelAndView("adminLogin");
-		}
-		return new ModelAndView("adminLogin");
+		String msg = "Wrong Login Cradentials Try Again Later..";
+		return new ModelAndView("adminLogin", "msg", msg);
 	}
 }
-
-
-
-

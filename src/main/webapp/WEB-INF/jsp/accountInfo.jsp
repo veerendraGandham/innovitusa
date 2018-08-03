@@ -48,7 +48,7 @@ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); func
 									aria-expanded="false"><i class="fa fa-cog"></i></a>
 
 									<ul class="dropdown-menu two">
-										<li><a href="#">
+										<li><a href="home">
 												<div class="notification_desc">
 													<p>
 														<b>Logout</b>

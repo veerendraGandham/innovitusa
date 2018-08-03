@@ -111,7 +111,15 @@
 	font-size: 13px;
 	text-decoration: none;
 }
-
+.errormsg {
+	color: #b22b2b;
+	font-size: 22px;
+	margin-left: 297px;
+	margin-top: 5px;
+	font-weight: bold;
+	width: auto;
+	padding: 10px;
+}
 .hname {
 	display: inline-block;
 	max-width: 100%;
@@ -137,6 +145,7 @@
 		</div>
 	</div>
 	<div class="container textpages">
+	<div id="divid" class="errormsg">${msg}</div>
 		<div class="login-form">
 			<div class="main-div">
 				<div class="panel"></div>
@@ -144,7 +153,7 @@
 
 					<div class="form-group">
 
-						<label class="hname">Email Address</label> <input type="text"
+						<label class="hname">Email Address</label> <input type="email"
 							class="form-control" name="loginName" id="inputEmail"
 							placeholder="Email Address">
 
@@ -166,6 +175,11 @@
 		</div>
 	</div>
 	<%@include file="footer.jsp"%>
+	<script>
+		$(function() {
+			$('#divid').delay(1000).fadeOut();
+		});
+	</script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.nav.js"></script>

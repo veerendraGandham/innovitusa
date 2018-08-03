@@ -1,5 +1,7 @@
 package com.iit.innovit.service.impl;
 
+import java.io.IOException;
+import java.sql.SQLException;
 import java.util.Iterator;
 import java.util.List;
 
@@ -16,23 +18,23 @@ public class JobPostServiceImpl implements JobPostService {
 	private JobPostDao dao;
 
 	@Override
-	public String insertJobPost(JobPostDto jobPostDto) {
+	public String insertJobPost(JobPostDto jobPostDto) throws IOException,SQLException {
 		System.out.println("servcie   " + jobPostDto);
 		int responce = dao.insertJobPost(jobPostDto);
 		if (responce == 0)
-			return "fail";
+			return "Somthing WentTo Wrong Please Try Again";
 		else
-			return "success";
+			return "JobPost Added Successfully..!!";
 	}
 
 	@Override
-	public List<JobPostDto> getJobPostList() {
+	public List<JobPostDto> getJobPostList() throws IOException,SQLException{
 		List<JobPostDto> responce = dao.getJobPostList();
 		return responce;
 	}
 
 	@Override
-	public JobPostDto getEditJobPost(Integer id) {
+	public JobPostDto getEditJobPost(Integer id) throws IOException,SQLException{
 		JobPostDto dto = new JobPostDto();
 		List<JobPostDto> responce = dao.getEditJobPost(id);
 		Iterator itr = responce.iterator();
@@ -44,7 +46,7 @@ public class JobPostServiceImpl implements JobPostService {
 	}
 
 	@Override
-	public String updateJobPost(JobPostDto jobPostDto) {
+	public String updateJobPost(JobPostDto jobPostDto) throws IOException,SQLException{
 		int responce = dao.updateJobPost(jobPostDto);
 		if (responce == 0)
 			return "fail";
@@ -53,7 +55,7 @@ public class JobPostServiceImpl implements JobPostService {
 	}
 
 	@Override
-	public String deleteUser(Integer id) {
+	public String deleteUser(Integer id)throws IOException,SQLException {
 		int responce = dao.deleteUser(id);
 		if (responce == 0)
 			return "try againg once";

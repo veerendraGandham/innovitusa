@@ -92,9 +92,9 @@
 											placeholder="Job Type">
 									</div>
 									<div class="form-group">
-										<label for="exampleInputEmail1">Description</label> <textarea
+										<label for="exampleInputEmail1">Description</label> <input type="text"
 											name="jobDescription" class="form-control"
-											value=""></textarea>
+											value="">
 										<!-- <div id="editor">
 											<p>Add Job Description</p>
 										</div> -->

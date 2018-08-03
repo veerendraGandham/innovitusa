@@ -17,7 +17,12 @@ private ClientServcie service;
 
 @GetMapping("/get_client_jobPost")
 public ModelAndView getClientJobPost() {
-	List<JobPostDto> responce=service.getClientJobPost();
+	List<JobPostDto> responce=null;
+	try {
+		responce=service.getClientJobPost();
+}catch (Exception e) {
+	return new ModelAndView("index");
+}
 	return new ModelAndView("clientJobList","res",responce);
 }
 }
