@@ -234,8 +234,7 @@
 							<div class="single-service">
 								<i class="fa fa-laptop"></i>
 								<h5>IT Development</h5>
-								<p>Lorem ipsum dolor sit ametconcer adipiscing elit. Aenean
-									commodo. In eu justo a felis faucibus ornare vel id metus.</p>
+								<p>Innovative Software Development Solutions.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInUp"
@@ -244,8 +243,7 @@
 							<div class="single-service">
 								<i class="fa fa-mobile"></i>
 								<h5>IT Consulting</h5>
-								<p>Lorem ipsum dolor sit ametconcer adipiscing elit. Aenean
-									commodo. In eu justo a felis faucibus ornare vel id metus.</p>
+								<p>Innovative IT Consulting Solutions for Successful Profession.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInUp"
@@ -254,8 +252,7 @@
 							<div class="single-service">
 								<i class="fa fa-paper-plane"></i>
 								<h5>Skill Development</h5>
-								<p>Lorem ipsum dolor sit ametconcer adipiscing elit. Aenean
-									commodo. In eu justo a felis faucibus ornare vel id metus.</p>
+								<p>Innovative Training Services For Successful Careers.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInUp"
@@ -264,8 +261,7 @@
 							<div class="single-service">
 								<i class="fa fa-pencil"></i>
 								<h5>Digital Marketing</h5>
-								<p>Lorem ipsum dolor sit ametconcer adipiscing elit. Aenean
-									commodo. In eu justo a felis faucibus ornare vel id metus.</p>
+								<p>Innovative Digital Marketing Services.</p>
 							</div>
 						</div>
 					</div>
@@ -360,7 +356,7 @@
 				<div class="col-md-12 col-sm-4 col-xs-12">
 					<div class="section-title">
 						<h2>
-							Latest <span>Posts</span>
+							Latest <span>Projects</span>
 						</h2>
 					</div>
 				</div>
@@ -374,22 +370,27 @@
 							<div class="news-date">
 								<span>03</span> <span>Mar</span> <span>2018</span>
 							</div>
-							<img src="img/blog1.jpg" alt="#">
+							<img src="img/denadmin.jpg" alt="#">
 							<div class="news-view">
-								<span><i class="fa fa-comments"></i>25 comments</span> <span><i
-									class="fa fa-eye"></i>10k views</span>
+								<span><i class="fa fa-comments"></i>6 comments</span> <span><i
+									class="fa fa-eye"></i>500 views</span>
 							</div>
 						</div>
 						<div class="news-body">
 							<h2>
-								<a href="#">creative onepage template</a>
+								<a target="_blank" href="http://www.denadmin.com/">HEALTH
+									CARE - DENADMIN</a>
 							</h2>
-							<p>Lorem ipsum dolor a sit ameti, consectetur adipisicing
-								elit, sed do eiusmod tempor incididunt ut labore et incididunt
-								ut labore et. Lorem ipsum dolor a sit ameti, consectetur
-								adipisicing elit,</p>
-							<a href="#" class="btn">Read More<i
-								class="fa fa-angle-double-right"></i></a>
+							<p>The purpose of DenAdmin project is to provide an improved
+								comprehensive dental office administration solution. Dental
+								office management is a very tedious task for the dental office
+								managers and owners. DenAdmin provides single DASHBOARD where
+								office manager can see all the dental office administrative
+								tasks that he/she can perform the daily tasks to manage the
+								office effectively.</p>
+							<a target="_blank" href="http://www.denadmin.com/" class="btn">Read
+								More<i class="fa fa-angle-double-right"></i>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -399,24 +400,29 @@
 					<div class="single-news">
 						<div class="news-head">
 							<div class="news-date">
-								<span>01</span> <span>Mar</span> <span>2018</span>
+								<span>05</span> <span>Aug</span> <span>2017</span>
 							</div>
-							<img src="img/blog2.jpg" alt="#">
+							<img src="img/willowood.png" alt="#">
 							<div class="news-view">
-								<span><i class="fa fa-comments"></i>25 comments</span> <span><i
-									class="fa fa-eye"></i>10k views</span>
+								<span><i class="fa fa-comments"></i>12 comments</span> <span><i
+									class="fa fa-eye"></i>8k views</span>
 							</div>
 						</div>
 						<div class="news-body">
 							<h2>
-								<a href="#">creative responsive template</a>
+								<a target="_blank" href="http://www.willowooddental.com">Willowood
+									Dental</a>
 							</h2>
-							<p>Lorem ipsum dolor a sit ameti, consectetur adipisicing
-								elit, sed do eiusmod tempor incididunt ut labore et incididunt
-								ut labore et. Lorem ipsum dolor a sit ameti, consectetur
-								adipisicing elit,</p>
-							<a href="#" class="btn">Read More<i
-								class="fa fa-angle-double-right"></i></a>
+							<p>Willowood Family Dental Care specializes in beautifying
+								smiles, maintaining your dental health, and helping you improve
+								your appearance. Our experienced and friendly staff takes great
+								pride in keeping your smile beautiful.Our promise to you is that
+								the veneers, fillings, crowns, and bridges we create will look
+								as good as or better than the teeth nature gave you.You can
+								trust your smile with us.</p>
+							<a target="_blank" href="http://www.willowooddental.com"
+								class="btn">Read More<i class="fa fa-angle-double-right"></i>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -426,24 +432,28 @@
 					<div class="single-news">
 						<div class="news-head">
 							<div class="news-date">
-								<span>30</span> <span>Feb</span> <span>2018</span>
+								<span>30</span> <span>Feb</span> <span>2017</span>
 							</div>
-							<img src="img/blog3.jpg" alt="#">
+							<img src="img/warrington.png" alt="#">
 							<div class="news-view">
-								<span><i class="fa fa-comments"></i>25 comments</span> <span><i
+								<span><i class="fa fa-comments"></i>30 comments</span> <span><i
 									class="fa fa-eye"></i>10k views</span>
 							</div>
 						</div>
 						<div class="news-body">
 							<h2>
-								<a href="#">creative portfolio template</a>
+								<a target="_blank" href="http://www.warringtonfamilydental.com/">Warrington
+									Family Dental</a>
 							</h2>
-							<p>Lorem ipsum dolor a sit ameti, consectetur adipisicing
-								elit, sed do eiusmod tempor incididunt ut labore et incididunt
-								ut labore et. Lorem ipsum dolor a sit ameti, consectetur
-								adipisicing elit,</p>
-							<a href="#" class="btn">Read More <i
-								class="fa fa-angle-double-right"></i></a>
+							<p>We are dedicated to providing all patients with a caring,
+								relaxed and friendly environment. Together with our experienced
+								dental team, we will help you achieve the most comfortable,
+								efficient and comprehensive dental care for your family. We
+								believe that every patient deserves to have a healthy and
+								beautiful smile.</p>
+							<a target="_blank" href="http://www.warringtonfamilydental.com/"
+								class="btn">Read More <i class="fa fa-angle-double-right"></i>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -466,51 +476,46 @@
 							<div class="single-testimonial">
 								<img src="img/author1.jpg" alt="#">
 								<p>
-									<i class="fa fa-quote-left"></i><i>Lorem ipsum dolor sit
-										amet, consectetur adipisicing elit, sed do eiusmod tempor
-										exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat. </i>
+									<i class="fa fa-quote-left"></i><i>"INNOVITUSA is a global
+										company and is a good company to work for it helps you
+										progress as a person and you establish to learn how to
+										interact with different people as a whole." </i>
 								</p>
 								<div class="star">
 									<i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
 										class="fa fa-star"></i> <i class="fa fa-star"></i> <i
 										class="fa fa-star-half"></i>
 								</div>
-								<span class="name">naimur rahman</span>
+								<span class="name">Balaji </span>
 							</div>
 							<!--End single-testimonial -->
 							<!--Start single-testimonial -->
 							<div class="single-testimonial">
-								<img src="img/author2.jpg" alt="#">
+								<img src="img/author1.jpg" alt="#">
 								<p>
-									<i class="fa fa-quote-left"></i><i>Lorem ipsum dolor sit
-										amet, consectetur adipisicing elit, sed do eiusmod tempor
-										exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat. </i>
+									<i class="fa fa-quote-left"></i><i>"I enjoy coming to
+										work!".</i>
 								</p>
 								<div class="star">
 									<i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
-										class="fa fa-star"></i> <i class="fa fa-star-half"></i> <i
-										class="fa fa-star-half"></i>
+										class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+										class="fa fa-star"></i>
 								</div>
-								<span class="name">Sabbir Ahmed</span>
+								<span class="name">Charan</span>
 							</div>
 							<!--End single-testimonial -->
 							<!-- Single Testimonial -->
 							<div class="single-testimonial">
 								<img src="img/author1.jpg" alt="#">
 								<p>
-									<i class="fa fa-quote-left"></i><i>Lorem ipsum dolor sit
-										amet, consectetur adipisicing elit, sed do eiusmod tempor
-										exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat. </i>
+									<i class="fa fa-quote-left"></i><i>"Great Working here!!"</i>
 								</p>
 								<div class="star">
 									<i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
 										class="fa fa-star"></i> <i class="fa fa-star"></i> <i
-										class="fa fa-star"></i> <i class="fa fa-star-half"></i>
+										class="fa fa-star-half"></i>
 								</div>
-								<span class="name">Mahedi Hasan</span>
+								<span class="name">Veerandra</span>
 							</div>
 							<!--/ End Single Testimonial -->
 						</div>
@@ -544,53 +549,7 @@
 	</section>
 	<!--/ End Newslatter -->
 
-	<!-- Contact -->
-	<section id="contact" class="contact section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 col-sm-12 col-xs-12">
-					<div class="contact-info">
-						<h4>Contact info</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-							sed do eiusmod tempor incididunt ut labore et dolore magna
-							aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-							sed do eiusmod tempor incididunt ut labore et dolore magna
-							aliqua.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-							sed do eiusmod tempor incididunt ut labore et dolore magna
-							aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-							sed do eiusmod tempor incididunt ut labore et dolore magna
-							aliqua.</p>
-						<span><i class="fa fa-phone-square"></i>+262 695 2601</span> <span><i
-							class="fa fa-map-marker"></i>121 King Street, Australia</span> <span><i
-							class="fa fa-envelope"></i><a href="#">youmail@gmail.com</a></span> <span><i
-							class="fa fa-globe"></i><a href="#">www.yourWebside.com</a></span>
-					</div>
-				</div>
-				<div class="col-md-8 col-sm-12 col-xs-12 ">
-					<div class="form-head">
-						<form class="form" action="#">
-							<div class="form-group">
-								<input name="name" type="text" placeholder="enter name">
-							</div>
-							<div class="form-group">
-								<input name="email" type="email" placeholder="enter email">
-							</div>
-							<div class="form-group">
-								<textarea name="message" placeholder="enter message"></textarea>
-							</div>
-							<div class="form-group">
-								<div class="button">
-									<button type="submit" class="btn primary">Submit</button>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--/ End Contact -->
+
 
 	<!-- Clients -->
 	<div id="clients" class="clients section">
