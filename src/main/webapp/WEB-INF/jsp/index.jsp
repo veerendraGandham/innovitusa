@@ -84,7 +84,7 @@
 				<a><i class="fa fa-envelope"></i> : info@innovitusa.com</a>
 			</div>
 			<div class="hcontact1">
-				<a> Login</a>
+				<!-- <a> Login</a> -->
 				<div class="hcontact2"></div>
 			</div>
 		</div>
@@ -159,7 +159,7 @@
 			<div class="row">
 				<div class="col-md-7 col-sm-12 col-xs-12">
 					<div class="text">
-						<h1>WELCOME TO INOVITUSA</h1>
+						<h1>WELCOME TO<br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; INNOVIT USA</h1>
 						<p></p>
 
 					</div>
@@ -232,7 +232,7 @@
 							data-wow-duration="0.8s" data-wow-delay="0.4s">
 							<!-- single-service -->
 							<div class="single-service">
-								<i class="fa fa-laptop"></i>
+								<i class="fa fa-mobile"></i>
 								<h5>IT Development</h5>
 								<p>Innovative Software Development Solutions.</p>
 							</div>
@@ -241,7 +241,8 @@
 							data-wow-duration="0.8s" data-wow-delay="0.5s">
 							<!-- single-service -->
 							<div class="single-service">
-								<i class="fa fa-mobile"></i>
+							<i class="fa fa-laptop"></i>
+								
 								<h5>IT Consulting</h5>
 								<p>Innovative IT Consulting Solutions for Successful Profession.</p>
 							</div>
@@ -250,7 +251,7 @@
 							data-wow-duration="0.8s" data-wow-delay="0.6s">
 							<!-- single-service -->
 							<div class="single-service">
-								<i class="fa fa-paper-plane"></i>
+								<i class="fa fa-pencil"></i>
 								<h5>Skill Development</h5>
 								<p>Innovative Training Services For Successful Careers.</p>
 							</div>
@@ -259,7 +260,7 @@
 							data-wow-duration="0.8s" data-wow-delay="0.7s">
 							<!-- single-service -->
 							<div class="single-service">
-								<i class="fa fa-pencil"></i>
+							<i class="fa fa-paper-plane"></i>
 								<h5>Digital Marketing</h5>
 								<p>Innovative Digital Marketing Services.</p>
 							</div>
@@ -566,12 +567,12 @@
 						<div class="single-clients">
 							<img src="img/warr.png" alt="#">
 						</div>
-						<div class="single-clients">
+						<!-- <div class="single-clients">
 							<img src="img/infi2.png" alt="#">
-						</div>
-						<div class="single-clients">
+						</div> -->
+						<!-- <div class="single-clients">
 							<img src="img/weblogo1.png" alt="#">
-						</div>
+						</div> -->
 
 					</div>
 				</div>
@@ -607,7 +608,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<p>
-							2018 Designed by <a href="#">INNOVITUSA</a>
+							2018 Designed by <a href="#">INFICLICKS</a>
 						</p>
 					</div>
 				</div>
